@@ -11,7 +11,7 @@ const routes = Router();
 
 routes.use('/sessions', sessionsRouter);
 
-routes.use('/apointments', appointmentsRouter);
+routes.use('/appointments', appointmentsRouter);
 routes.use('/providers', providersRouter);
 routes.use('/users', usersRouter);
 routes.use('/profile', profileRouter);
